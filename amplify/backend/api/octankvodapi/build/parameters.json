@@ -1,0 +1,14 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "octankvodapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authoctankvod9f14ebe3",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-octankvod-dev-184331-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/64bbc181af0ec3688baad84459052957cf8c0df0"
+}

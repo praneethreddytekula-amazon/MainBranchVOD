@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-octankvod-dev-184331-authRole",
+      "UnauthRoleArn": "arn:aws:iam::598346823589:role/amplify-octankvod-dev-184331-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::598346823589:role/amplify-octankvod-dev-184331-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-octankvod-dev-184331-deployment",
+      "UnauthRoleName": "amplify-octankvod-dev-184331-unauthRole",
+      "StackName": "amplify-octankvod-dev-184331",
+      "StackId": "arn:aws:cloudformation:us-east-1:598346823589:stack/amplify-octankvod-dev-184331/e961f550-d452-11eb-a3c3-12f642f72c1d",
+      "AmplifyAppId": "d1s7ow1kctaa95"
+    },
+    "categories": {
+      "auth": {
+        "octankvod9f14ebe3": {}
+      },
+      "video": {
+        "octankvodservice": {
+          "s3UUID": "m7ak3o0x"
+        }
+      }
+    }
+  }
+}
